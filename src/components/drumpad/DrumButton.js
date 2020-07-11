@@ -1,9 +1,11 @@
 import React from "react";
 
-import "./DrumButton.css"
-
-const DrumButton = () => {
-  return <div className="drum-button">Drum Button</div>;
+const DrumButton = ({ key, value }) => {
+  return (
+    <div className="drum-button" key={key}>
+      {value}
+    </div>
+  );
 };
 
 export default DrumButton;
