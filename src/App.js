@@ -18,7 +18,7 @@ const App = () => {
   ]);
 
   return (
-    <div className="app-container container mx-auto">
+    <div className="app-container container mx-auto border border-black">
       Hello World!
       <DrumPad sounds={sounds} />
       <Toggle />
