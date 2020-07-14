@@ -21,7 +21,7 @@ const App = () => {
     <div className="app-container container mx-auto border border-black">
       Hello World!
       <DrumPad sounds={sounds} />
-      <Toggle />
+      <Toggle label={"Test"} />
       <Slider />
       <Viewer />
     </div>

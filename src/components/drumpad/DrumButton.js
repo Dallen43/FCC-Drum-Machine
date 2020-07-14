@@ -6,7 +6,7 @@ const DrumButton = ({ key, value }) => {
   //See the DrumPad parent component for the other part of this
   return (
     <div className="drum-button p-2" key={key}>
-      <div className="flex bg-blue-500 w-32 h-24 justify-center items-center">
+      <div className="flex bg-gray-500 w-32 h-24 justify-center items-center shadow-md rounded-md hover:bg-gray-400">
         {value}
       </div>
     </div>
