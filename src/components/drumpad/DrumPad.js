@@ -8,7 +8,7 @@ const DrumPad = ({ sounds, clickEvt }) => {
         {sounds.map((sound) => (
           <DrumButton
             key={sound.sound_id}
-            value={sound.sound_name}
+            keyText={sound.sound_keyText}
             clickEvt={clickEvt}
             soundId={sound.sound_id}
             soundClip={sound.sound_url}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 
-const Slider = ({ initialSize, minSize, maxSize }) => {
+const Slider = ({ initialSize, minSize, maxSize, getSliderValue }) => {
   const [currentValue, setCurrentValue] = useState(initialSize);
 
   return (
